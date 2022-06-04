@@ -4,7 +4,7 @@ Python Script Designed to scan a json file archive of a discord channel or dm th
 
 Works by creating a thread for each string that you would like to search for
 
-###Installation:
+###Installation
 
 1) create a list.py file with an array named "strings" and place that in the same directory as the downloaded search.py file
 
