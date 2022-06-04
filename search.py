@@ -28,7 +28,7 @@ def ThreadFunction(string):
         print(msg)
         print(Style.RESET_ALL)
         filename = string+".txt"
-        with open(filename, 'a') as f:
+        with open(filename, 'a', encoding="utf-8") as f:
             f.write(msg)
         timesSaid+=1
     filename2 = string+"_Count"+".txt"
